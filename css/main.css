@@ -1,0 +1,112 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #ffffff url('Background.svg');
+  background-size: 100%;
+  font-family: 'Nunito', sans-serif;
+  color: rgba(41, 70, 191, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+/*--- H1 + other text ---*/
+h1{
+  text-align: center;
+  font-family: 'Silkscreen';
+  font-size: 60px;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  font-weight: 700;
+  margin: 45px;
+}
+h4, p{
+  margin: 0;
+  padding: 0;
+}
+
+/*--- Logo ---*/
+.logo{
+  display: block;
+  max-width: 28px;
+  margin: 60px 0 0 0;
+}
+
+/*--- Wrapper ---*/
+.wrapper {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+/*--- Hero-Text ---*/
+.hero-text{
+  margin: 0 0 72px 0;
+}
+
+/*--- Container ---*/
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/*--- Features ---*/
+.features-container{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+  margin: 0 auto;
+}
+.feature{
+  display: flex;
+  margin: auto;
+  gap: 60px;
+}
+
+/*--- Кнопка --- Button ---*/
+.button {
+  background: linear-gradient(95.79deg, #BD93F2 0%, #FFC7F0 100%);
+  border-radius: 100px;
+  font-size: 20px;
+  color: #2946BF;
+  text-decoration: none;
+  padding: 29px 49px;
+  font-weight: 500;
+  line-height: 1.4em;
+  display: block;
+  width: 216px;
+  text-align: center;
+  transition: 1s linear;
+}
+.button:hover {
+  background: radial-gradient(50% 463.63% at 50% 50%, #E485F3 0%, #FFBAEC 100%);
+}
+
+/*--- Футер --- Footer ---*/
+.soc-media a{
+  text-decoration: none;
+}
+.soc-media{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 25px;
+}
+.footer .container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer{
+  padding: 37px 0 61px 0;
+  top: 53.97%;
+  color: white;
+  background: rgba(106, 49, 181, 0.8) url(C:\Users\Admin\Desktop\WayUp\Planer\Footer.svg);
+  text-align: center;
+}
