@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background: #ffffff url('Background.svg');
+  background: #ffffff url('../img/Background.svg');
   background-size: 100%;
   font-family: 'Nunito', sans-serif;
   color: rgba(41, 70, 191, 1);
@@ -29,12 +29,31 @@ h4, p{
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  color: rgba(41, 70, 191, 1);
+}
 
 /*--- Logo ---*/
 .logo{
   display: block;
   max-width: 28px;
+}
+
+/*--- Menu ---*/
+.menu-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
   margin: 60px 0 0 0;
+  gap: 53px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 53px;
 }
 
 /*--- Wrapper ---*/
@@ -88,7 +107,7 @@ h4, p{
   background: radial-gradient(50% 463.63% at 50% 50%, #E485F3 0%, #FFBAEC 100%);
 }
 
-/*--- Футер --- Footer ---*/
+/*--- Футер+ --- Footer+ ---*/
 .soc-media a{
   text-decoration: none;
 }
@@ -102,11 +121,14 @@ h4, p{
   display: flex;
   flex-direction: column;
   gap: 50px;
+  margin-top: 60px;
 }
 .footer{
   padding: 37px 0 61px 0;
+  margin: 0;
   top: 53.97%;
   color: white;
-  background: rgba(106, 49, 181, 0.8) url(C:\Users\Admin\Desktop\WayUp\Planer\Footer.svg);
+  background: url('../img/Footer.svg');
+  height: 250px;
   text-align: center;
 }
