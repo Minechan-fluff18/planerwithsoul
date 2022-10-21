@@ -1,20 +1,3 @@
-html{
-  scroll-behavior: smooth;
-}
-
-body{
-  background: #ffffff url('../img/Background.svg');
-  background-size: 100%;
-  font-family: 'Nunito', sans-serif;
-  color: rgba(41, 70, 191, 1);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.4em;
-  letter-spacing: 0.05em;
-  margin: 0;
-  padding: 0;
-}
-
 /*--- Heart-Point ---*/
 .heart-point{
   display: flex;
@@ -31,59 +14,6 @@ body{
   background: url('../img/full-point.svg');
 }
 
-/*--- H1 + other text ---*/
-h1{
-  text-align: center;
-  font-family: 'Silkscreen';
-  font-size: 60px;
-  letter-spacing: 0.05em;
-  line-height: 1.4em;
-  font-weight: 700;
-  margin: 45px;
-}
-h4, p{
-  margin: 0;
-  padding: 0;
-}
-a{
-  text-decoration: none;
-  color: rgba(41, 70, 191, 1);
-}
-
-/*--- Logo ---*/
-.logo{
-  display: block;
-  max-width: 28px;
-}
-
-/*--- Menu ---*/
-.menu-wrap{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  margin: 60px 0 0 0;
-  gap: 53px;
-}
-.menu{
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  gap: 53px;
-}
-
-/*--- Wrapper ---*/
-.wrapper {
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 0;
-}
-
-/*--- Hero-Text ---*/
-.hero-text{
-  margin: 0 0 72px 0;
-}
-
 /*--- Назва Місяцю --- Month Name ---*/
 .month{
   display: flex;
@@ -93,20 +23,6 @@ a{
 .monthtext{
   font-size: 18px;
   font-weight: 700;
-}
-
-/*--- Container ---*/
-.container{
-  max-width: 1110px;
-  margin: 0 auto;
-}
-
-/*--- Features ---*/
-.features-container{
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
 }
 
 /*--- Дні місяця --- Month-Days ---*/
@@ -165,30 +81,4 @@ a{
 }
 .month-day3:hover {
   background: linear-gradient(49.64deg, #D7BCFD 26.9%, #FFC7F0 100%);
-}
-
-/*--- Футер+ --- Footer+ ---*/
-.soc-media a{
-  text-decoration: none;
-}
-.soc-media{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 25px;
-}
-.footer .container{
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  margin-top: 60px;
-}
-.footer{
-  padding: 37px 0 61px 0;
-  margin: 0;
-  top: 53.97%;
-  color: white;
-  background: url('../img/Footer.svg');
-  height: 250px;
-  text-align: center;
 }

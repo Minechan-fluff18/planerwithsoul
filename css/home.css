@@ -1,0 +1,26 @@
+/*--- Features ---*/
+.features-container{
+  gap: 76px;
+}
+.feature{
+  gap: 60px;
+}
+
+/*--- Кнопка --- Button ---*/
+.button {
+  background: linear-gradient(95.79deg, #BD93F2 0%, #FFC7F0 100%);
+  border-radius: 100px;
+  font-size: 20px;
+  color: #2946BF;
+  text-decoration: none;
+  padding: 29px 49px;
+  font-weight: 500;
+  line-height: 1.4em;
+  display: block;
+  width: 216px;
+  text-align: center;
+  transition: 1s linear;
+}
+.button:hover {
+  background: radial-gradient(50% 463.63% at 50% 50%, #E485F3 0%, #FFBAEC 100%);
+}

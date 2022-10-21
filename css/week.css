@@ -1,0 +1,107 @@
+/*--- Назва Місяцю --- Month Name ---*/
+.month{
+  display: flex;
+  margin: 71px auto 45px auto;
+  gap: 450px;
+}
+.monthtext{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*--- День --- Day ---*/
+.week-days{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.feature{
+  display: flex;
+  overflow: auto;
+  margin: 0 auto;
+  gap: 60px;
+}
+.day1{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  color: #2946BF;
+  border-radius: 0.5%;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.4em;
+  display: flex;
+}
+.week-day{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  left: 8.05%;
+  top: 3%;
+  padding: 0px;
+  gap: 124px;
+}
+
+/*--- Лінії --- Lines ---*/
+.line1{
+  position: absolute;
+  left: 8.05%;
+  right: 50%;
+  top: 13.57%;
+  bottom: 86.43%;
+  margin: 0;
+  background: #2946BF;
+  height: 2px;
+}
+.day-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 31px;
+  position: absolute;
+  width: 345px;
+  height: 140px;
+  left: 33px;
+  top: 68px;
+}
+.line2{
+  width: 345px;
+}
+
+/*--- To Do List ---*/
+.week-todo{
+  position: absolute;
+  width: 185px;
+  height: 24px;
+  left: 3.56%;
+  top: 5px;
+}
+.todo-line1{
+  position: absolute;
+  left: 3.56%;
+  right: 75.19%;
+  top: 13.57%;
+  bottom: 85.96%;
+  margin: 0;
+  background: #2946BF;
+  height: 2px;
+}
+.todo-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 31px;
+  position: absolute;
+  height: 140px;
+  left: 33px;
+  top: 68px;
+}
+.todo-line2{
+  width: 824px;
+}
+.ToDo-in-week{
+  width: 891px;
+}
